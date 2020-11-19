@@ -169,6 +169,88 @@ header .active a {
 #about .text-right {
   text-align: center;
 }
+/*menu section*/
+#menu .heading {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+#menu .menus {
+  float: left;
+  width: 25%;
+}
+#menu .menu-icon {
+  position: relative;
+  filter: drop-shadow(0px 18px 52.8537px rgba(215, 228, 249, 0.5));
+  border-radius: 8px;
+  margin: 0 17px;
+}
+#menu .menu-name {
+  position: absolute;
+  font-weight: bold;
+  font-family: "Mulish";
+  color: black;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0 17px;
+}
+#menu .menu-price {
+  position: absolute;
+  font-weight: bold;
+  font-family: "Mulish";
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFBA49;
+  margin: 0 17px;
+}
+/* start contact-form */
+
+#contact-form .section-title {
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+#contact-form .order {
+  text-align: center;
+  padding: 30px 0px;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+}
+
+#contact-form input,
+textarea {
+  width: 400px;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #f2994a;
+  border-radius: 15px;
+}
+
+#contact-form .order-submit {
+  margin-top: 10px;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f2994a;
+  color: rgb(0, 0, 0);
+}
+
+#contact-form .order-submit:hover {
+  background-color: #e96f04;
+  color: rgb(255, 255, 255);
+  border: 1px solid #e96f04);
+  font-weight: bold;
+}
+
+/* end contact-form */
 
 /* media queri (responsive) */
 @media (max-width: 1000px) {
